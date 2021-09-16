@@ -8,3 +8,7 @@ const choiceP= document.getElementById("c-paper");
 const choiceS = document.getElementById("c-scissors");
 const result = document.getElementsByClassName("result");
 
+const initscore = {
+player: 0, 
+computer: 0
+}
