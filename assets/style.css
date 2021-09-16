@@ -26,7 +26,7 @@ body{
 
 #rps-title{
     text-align:center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: comic neue, Caveat;
     color:whitesmoke;
  }
 
@@ -34,7 +34,7 @@ body{
      text-align: center;
      font-size: 30px;
      color:whitesmoke;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: comic neue, Caveat;
      margin-top: 10px;
      
      
@@ -45,14 +45,14 @@ body{
    text-align:left;
      color:whitesmoke;
      font-size:20px;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family:  comic neue, Caveat;
      margin-left:200px;
  }
  #cscore{
     text-align:right; 
     color:whitesmoke;
     font-size:20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: comic neue, Caveat;
     margin-right:200px;
 
 }
@@ -81,45 +81,59 @@ body{
     margin-top: 10%;
     color:whitesmoke;
     font-size:30px;
-    display:block
+    display:block;
+    font-family:Comic neue, Caveat;
     
 
 }
 #c-rock{
-    width:80px;
+    width: 80px;
     height:80px;
     box-sizing:border-box;
     margin:auto;
-    background-color: whitesmoke;
-    text-align:center;
-    justify-items: center;
+    background-color: burlywood;
+    
+    
     border-radius: 10px;
     margin-top: 1%;
-    display:inline-block
+   
+    color:white;
+    border-width: 1px;
+    border-style:none
 
 }
 #c-paper{
-    width:80px;
+    width: 80px;
     height:80px;
     box-sizing:border-box;
     margin:auto;
-    background-color: whitesmoke;
-    text-align:center;
-    justify-items: center;
+    background-color: burlywood;
+    
+    
     border-radius: 10px;
     margin-top: 1%;
-    display:inline-block
-    
+   
+    color:white;
+    border-width: 1px;
+    border-style:none
+   
 }
 #c-scissors{
-    width:80px;
+    width: 80px;
     height:80px;
     box-sizing:border-box;
     margin:auto;
-    background-color: whitesmoke;
-    text-align:center;
-    justify-items: center;
+    background-color: burlywood;
+    
+    
     border-radius: 10px;
     margin-top: 1%;
-    display:inline-block
+   
+    color:white;
+    border-width: 1px;
+    border-style:none
+}
+
+.choice{
+    display:inline;
 }
