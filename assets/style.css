@@ -8,14 +8,72 @@ body{
     background-color: burlywood;
 }
 
-.game{
+.game-box{
     width:800px;
     height:600px;
     box-sizing:border-box;
     margin:auto;
-    background-color: rgba(0,250,4 0.10);
+    background-color: whitesmoke;
     text-align:center;
     justify-items: center;
     border-radius: 10px;
-    
+    margin-top: 1%;
+
+}
+
+#rps-title{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke
+ }
+
+ .scores{
+     text-align: center;
+     font-size: 30px;
+     color:whitesmoke;
+     font-family:Arial, Helvetica, sans-serif;
+     margin-top: 10px;
+     
+
+ }
+
+#pscore{
+   text-align:left;
+     color:whitesmoke;
+     font-size:20px;
+     font-family:Arial, Helvetica, sans-serif;
+     margin-left:200px;
+ }
+ #cscore{
+    text-align:right; 
+    color:whitesmoke;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right:200px;
+
+}
+
+.result{
+    width:300px;
+    height:50px;
+    box-sizing:border-box;
+    margin:auto;
+    background-color: burlywood;
+    text-align:center;
+    justify-items: center;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.choices{
+    width:600px;
+    height:400px;
+    box-sizing:border-box;
+    margin:auto;
+    background-color: burlywood;
+    text-align:center;
+    justify-items: center;
+    border-radius: 10px;
+    margin-top: 1%;
+
 }

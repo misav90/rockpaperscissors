@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "assets/style.css"
+    <link rel = "stylesheet" href = "assets/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+        </style>
+
     <title>Rock Paper Scissors</title>
 </head>
 <body>
     <header>
-        <h1>Rock Paper Scissors</h1>
+        <h1 id = "rps-title">Rock Paper Scissors</h1>
     <section>
-        <div>game</div>
-    <div class = "scores">score</div>
-    <div class ="result">result</div>
+        <div class = "scores">score</div>
+        
+    
     <p id = pscore>player score</p>
     <p id = cscore>computer score</p>
-    <div class = "choices">choices</div>
-    <div class ="choices" id="c-rock">choice-rock</div>
-    <div class ="choices" id="c-paper">choice-paper</div>
-    <div class ="choices" id= "c-scissors">choice-scissors</div>
+        <div class ="game-box">game
+            <div class ="result">result</div>
+            
+            <div class = "choices">choices</div>
+    <div class ="choices" id="c-rock"><i class="fas fa-hand-rock"></i>choice-rock</div>
+    <div class ="choices" id="c-paper"><i class="fas fa-hand-paper"></i>choice-paper</div>
+    <div class ="choices" id= "c-scissors"><i class="fas fa-hand-scissors"></i>choice-scissors</div>
 </div>
+        </div>
+
+    
     </section>
         
     </header>
