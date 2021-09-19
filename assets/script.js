@@ -12,3 +12,17 @@ const initscore = {
 player: 0, 
 computer: 0
 }
+
+function startgame () {
+    console.log("game started");
+}
+
+choiceR.addEventListener('click', function() {
+   console.log("rock");
+})
+choiceP.addEventListener('click', function() {
+    console.log("Paper");
+ })
+ choiceS.addEventListener('click', function() {
+    console.log("Scissors");
+ })
